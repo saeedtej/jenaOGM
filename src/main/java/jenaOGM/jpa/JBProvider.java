@@ -41,7 +41,7 @@ import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 
 /**
- * Provide jenaOGM TDB - fuzeki persistence layer for accessing jenaOGM modelss.
+ * Provide jenaOGM TDB - fuzeki persistence layer for accessing jena data flles.
  */
 public class JBProvider implements PersistenceProvider {
 
@@ -52,7 +52,7 @@ public class JBProvider implements PersistenceProvider {
     private HashMap<String, JBFactory> entityManagers;
 
     /**
-     * called by the JPA Persitence api.  Looks for META-INF/jenamodels.n3 in
+     * called by the JPA api.  Looks for META-INF/jenamodels.n3 in
      * the classpath and uses this file as a Jena Assembler.
      */
     public JBProvider() {

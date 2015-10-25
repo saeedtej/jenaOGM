@@ -1,0 +1,6 @@
+
+dependencies {
+    compile 'org.apache.jena:apache-jena-libs:3.0.0'
+    compile 'org.javassist:javassist:3.20.0-GA'
+    compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final'
+ }
